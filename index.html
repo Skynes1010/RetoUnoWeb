@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Reto 1</title>
+</head>
+
+<body>
+    <form class="form" id="form">
+
+        <img src="./img/compu.png" alt="laptop">
+
+        <h1>Laptop Gamer HP</h1>
+        <input class="control" id="cantidad" name="cantidad" placeholder="Ingrese Cantidad" type="number" required />
+        <select name="color" id="color" class="color">
+            <option value="y">Amarillo</option>
+            <option value="g">Verde</option>
+            <option value="r">Rojo</option>
+            <option value="p">Purpura</option>
+            <option value="d">Azul oscuro</option>
+            <option value="m">Gris</option>
+        </select>
+        <label for="precio" id="labelPrecio">Precio: 4000000</label>
+        <button type="button" class="btn" id="btnTotal">Calcular Total</button>
+    </form>
+    <section class="sectionresul">
+        <div class="result" id="result"></div>
+        <div id="backgroude" class="backgroude"></div>
+    </section>    
+    <script src="./scripts/main.js"></script>
+</body>
+
+
+</html>
